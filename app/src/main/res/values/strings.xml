@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">BookSharing</string>
+    <string name="bookseekers">BookSeekers</string>
+    <string name="todo">TODO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upload_book">Upload Book</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="this_is_the_home">THis is the home</string>
+    <string name="this_is_the_search">this is the search</string>
+    <string name="this_is_the_upload">this is the upload</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">SIGN IN</string>
+    <string name="if_u_don_t_have_an_account_click_here">If u don\'t have an Account Click here</string>
+    <string name="new_account_click_here">NEW ACCOUNT? CLICK HERE</string>
+    <string name="not_have_an_account_signup_now">Not Have an account? SignUp now</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">LOGIN</string>
+    <string name="bookseekers1">BOOKSEEKERS</string>
+    <string name="email">Email</string>
+    <string name="registration">Registration</string>
+    <string name="regiser">Register</string>
+
+    <string name="renter_password">Renter password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="reenter">Reenter</string>
+    <string name="do_you_have_an_account_click_here">do you have an account? click here</string>
+
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="upload_book_here">Upload Book Here</string>
+    <string name="upload">Upload</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_image">Select Image</string>
+    <string name="book_name">Book Name</string>
+    <string name="author_name">Author Name</string>
+    <string name="enter_edition">Enter Edition</string>
+    <string name="book_semester">Book Semester</string>
+    <string name="price">Price</string>
+    <string name="bookname">Bookname</string>
+    <string name="click_to_upload_file">Click To Upload File</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="book_seekers">Book Seekers</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="upload_book1">Upload Book</string>
+    <string name="profile">Profile</string>
+    <string name="book_seekers1">Book Seekers</string>
+    <string name="the_platform_where_you_can_share_the_books">The Platform Where You Can share the Books</string>
+    <string name="book_name1">Book Name</string>
+    <string name="category">Category</string>
+    <string name="semester">Semester</string>
+    <string name="edition">Edition</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="chat_with_book_owner">Chat With Book owner</string>
+    <string name="call_now">Call now</string>
+    <string name="college">College</string>
+    <string name="department">Department</string>
+    <string name="email1">Email</string>
+    <string name="mobile_no1">Mobile no</string>
+    <string name="uploaded_books">Uploaded books</string>
+    <string name="your_uploaded_books">Your Uploaded Books</string>
+    <string name="logout">Logout</string>
+    <string name="placeholder_message">Placeholder message</string>
+    <string name="rose">Rose</string>
+    <string name="how_are_you_doing_this_is_a_long_message_that_should_probably_wrap">How are you doing? This is a long message that should probably wrap.</string>
+    <string name="id">ID</string>
+    <string name="write_a_message">Write a message</string>
+    <string name="book_seekers3">BOOK-SEEKERS</string>
+
+    <string-array name="College">
+        <item>GEC,PATAN</item>
+        <item>GEC,PALANPUR</item>
+        <item>GEC,GANDHINAGAR</item>
+        <item>GEC,MODASA</item>
+        <item>GEC,RAJKOT</item>
+    </string-array>
+
+    <string-array name="Semester">
+        <item>First</item>
+        <item>Secound</item>
+        <item>Third</item>
+        <item>Fourth</item>
+        <item>Fifth</item>
+        <item>sixth</item>
+        <item>seventh</item>
+        <item>Eight</item>
+    </string-array>
+
+    <string-array name="Department">
+        <item>Computer Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Electronic and Communication</item>
+        <item>Electrical Engineering</item>
+    </string-array>
+
+    <string-array name="Category">
+        <item>Study</item>
+        <item>Comics</item>
+        <item>Horror</item>
+        <item>LoveStory</item>
+        <item>Mathmatician</item>
+        <item></item>
+    </string-array>
+</resources>

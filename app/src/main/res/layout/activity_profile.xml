@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yg"
+    tools:context=".Activity.ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textuserinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="User Profile"
+            android:textColor="#512DA8"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/userphoto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:foregroundGravity="center_horizontal"
+            android:layout_marginStart="150dp"
+            android:layout_below="@+id/textuserinfo"
+            android:paddingTop="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_marginLeft="150dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userphoto"
+                android:text="@string/name"
+                android:padding="10dp"
+                android:id="@+id/name1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name2"
+                android:layout_below="@id/userphoto"
+                android:layout_toEndOf="@+id/name1"
+                android:layout_toRightOf="@+id/name1"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginRight="5sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name1"
+                android:text="@string/college"
+                android:padding="10dp"
+                android:id="@+id/college"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/college1"
+                android:layout_below="@id/name2"
+                android:layout_toEndOf="@+id/name1"
+                android:layout_toRightOf="@+id/name1"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginRight="5sp" />
+
+            <TextView
+                android:id="@+id/department"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/college"
+                android:layout_marginTop="9dp"
+                android:padding="10dp"
+                android:text="@string/department"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/department1"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/college"
+                android:layout_marginStart="22dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_toEndOf="@+id/name1"
+                android:layout_toRightOf="@+id/name1"
+                android:padding="10dp"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/department"
+                android:text="@string/email"
+                android:padding="10dp"
+                android:id="@+id/email"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email1"
+                android:layout_below="@id/department"
+                android:layout_toEndOf="@+id/name1"
+                android:layout_toRightOf="@+id/name1"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginRight="5sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email"
+                android:text="@string/mobile_no1"
+                android:padding="10dp"
+                android:id="@+id/mobile"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mobile1"
+                android:layout_below="@id/email"
+                android:layout_toEndOf="@+id/name1"
+                android:layout_toRightOf="@+id/name1"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginRight="5sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mobile"
+                android:text="@string/semester"
+                android:padding="10dp"
+                android:id="@+id/semester3"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/semester4"
+                android:layout_below="@id/mobile"
+                android:layout_toEndOf="@+id/name1"
+                android:layout_toRightOf="@+id/name1"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginRight="5sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/semester3"
+                android:layout_marginTop="25dp"
+                android:textSize="20sp"
+                android:text="@string/logout"
+                android:background="@drawable/y1"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

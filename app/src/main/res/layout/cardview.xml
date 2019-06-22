@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardlist_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginTop="2dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="@dimen/cardview_default_elevation">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/bookimageview"
+            android:layout_width="89dp"
+            android:layout_height="98dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/bookname"
+            android:layout_width="298dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/bookimageview"
+            android:layout_toRightOf="@+id/bookimageview"
+
+            android:paddingTop="10dp"
+            android:text="@string/book_name"
+            android:textColor="#f34"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/authorname"
+            android:layout_width="296dp"
+            android:layout_height="31dp"
+            android:layout_below="@+id/bookname"
+            android:paddingTop="10dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/bookimageview"
+            android:layout_toRightOf="@+id/bookimageview"
+            android:text="@string/author_name"
+            android:textColor="#03A9F4"
+            android:textSize="15dp" />
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

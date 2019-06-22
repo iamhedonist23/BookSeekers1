@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.BookDetailsActivity"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_item">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="350dp"
+              android:id="@+id/bookimage"
+              android:src="@drawable/b2"
+              />
+
+          <TextView
+              android:layout_width="100dp"
+              android:layout_height="30dp"
+              android:padding="1dp"
+              android:layout_marginTop="10dp"
+              android:text="@string/book_name"
+              android:gravity="center_horizontal"
+              android:textSize="18sp"
+              android:textColor="#f34"
+              android:textStyle="bold"
+              android:id="@+id/txtbookname"
+              android:layout_below="@+id/bookimage"/>
+
+          <TextView
+              android:layout_width="100dp"
+              android:layout_height="30dp"
+              android:padding="1dp"
+              android:layout_marginTop="15dp"
+              android:text="@string/author_name"
+              android:gravity="center_horizontal"
+              android:textSize="18sp"
+              android:textColor="#f34"
+              android:textStyle="bold"
+              android:id="@+id/author"
+              android:layout_below="@+id/txtbookname"/>
+
+          <TextView
+              android:layout_width="100dp"
+              android:layout_height="30dp"
+              android:padding="1dp"
+              android:layout_marginTop="15dp"
+              android:text="@string/semester"
+              android:gravity="center_horizontal"
+              android:textSize="18sp"
+              android:textColor="#f34"
+              android:textStyle="bold"
+              android:id="@+id/semester"
+              android:layout_below="@+id/author"/>
+
+          <TextView
+              android:layout_width="100dp"
+              android:layout_height="30dp"
+              android:padding="1dp"
+              android:layout_marginTop="15dp"
+              android:text="@string/category"
+              android:gravity="center_horizontal"
+              android:textSize="18sp"
+              android:textColor="#f34"
+              android:textStyle="bold"
+              android:id="@+id/category"
+              android:layout_below="@+id/semester"/>
+
+          <TextView
+              android:id="@+id/price"
+              android:layout_width="110dp"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/edition"
+              android:layout_marginTop="22dp"
+              android:gravity="center_horizontal"
+              android:padding="1dp"
+              android:text="@string/price"
+              android:textColor="#f34"
+              android:textSize="24sp"
+              android:textStyle="bold" />
+
+
+
+          <TextView
+              android:id="@+id/edition"
+              android:layout_width="104dp"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/category"
+              android:layout_marginTop="15dp"
+              android:gravity="center_horizontal"
+              android:padding="1dp"
+              android:text="@string/edition"
+              android:textColor="#f34"
+              android:textSize="18sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/bookname1"
+              android:layout_width="298dp"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/bookimage"
+              android:layout_marginStart="6dp"
+              android:layout_marginLeft="6dp"
+              android:layout_marginTop="11dp"
+              android:layout_toEndOf="@+id/txtbookname"
+              android:layout_toRightOf="@+id/txtbookname"
+              android:gravity="left"
+              android:padding="1dp"
+              android:text="@string/book_name"
+              android:textColor="#673AB7"
+              android:textSize="18sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/author1"
+              android:layout_width="298dp"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/bookname1"
+              android:layout_marginStart="6dp"
+              android:layout_marginLeft="6dp"
+              android:layout_marginTop="18dp"
+              android:layout_toEndOf="@+id/author"
+              android:layout_toRightOf="@+id/author"
+              android:gravity="left"
+              android:padding="1dp"
+              android:text="@string/author_name"
+              android:textColor="#673AB7"
+              android:textSize="18sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/semester1"
+              android:layout_width="298dp"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/author1"
+              android:layout_marginStart="6dp"
+              android:layout_marginLeft="6dp"
+              android:layout_marginTop="18dp"
+              android:layout_toEndOf="@+id/semester"
+              android:layout_toRightOf="@+id/semester"
+              android:gravity="left"
+              android:padding="1dp"
+              android:text="@string/semester"
+              android:textColor="#673AB7"
+              android:textSize="18sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/category1"
+              android:layout_width="298dp"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/semester1"
+              android:layout_marginStart="4dp"
+              android:layout_marginLeft="4dp"
+              android:layout_marginTop="18dp"
+              android:layout_toEndOf="@+id/category"
+              android:layout_toRightOf="@+id/category"
+              android:gravity="left"
+              android:padding="1dp"
+              android:text="@string/category"
+              android:textColor="#673AB7"
+              android:textSize="18sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/edition1"
+              android:layout_width="298dp"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/category1"
+              android:layout_marginStart="6dp"
+              android:layout_marginLeft="6dp"
+              android:layout_marginTop="21dp"
+              android:layout_toEndOf="@+id/edition"
+              android:layout_toRightOf="@+id/edition"
+              android:gravity="left"
+              android:padding="1dp"
+              android:text="@string/edition"
+              android:textColor="#673AB7"
+              android:textSize="18sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/price1"
+              android:layout_width="305dp"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/edition1"
+              android:layout_marginStart="6dp"
+              android:layout_marginLeft="6dp"
+              android:layout_marginTop="22dp"
+              android:layout_toEndOf="@+id/price"
+              android:layout_toRightOf="@+id/price"
+              android:gravity="left"
+              android:padding="1dp"
+              android:text="@string/price"
+              android:textColor="#673AB7"
+              android:textSize="24sp"
+              android:textStyle="bold" />
+
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="80dp"
+              android:layout_below="@+id/price"
+              android:layout_marginTop="50dp"
+              android:background="@drawable/y1"
+              android:padding="10dp"
+              android:text="@string/chat_with_book_owner"
+              android:textSize="24sp"
+              android:id="@+id/chatbtn"
+              android:layout_marginStart="10dp"
+              android:layout_marginEnd="10dp"
+              android:textStyle="bold"
+              android:layout_marginLeft="10dp" />
+
+      </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

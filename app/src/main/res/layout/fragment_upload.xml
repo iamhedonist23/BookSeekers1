@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.UploadFragment"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- TODO: Update blank fragment layout -->
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="164dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/b2" />
+
+            <TextView
+                android:id="@+id/txtupload"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="@string/upload_book_here"
+                android:textColor="#191970"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/select_image"
+                android:padding="10sp"
+                android:id="@+id/btnselect"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/book_name"
+                android:padding="10dp"
+                android:id="@+id/edtbookname"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/edtauthor"
+                android:padding="10dp"
+                android:inputType="text"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/author_name"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/edtedition"
+                android:padding="10dp"
+                android:inputType="number"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/enter_edition"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/edtsemester"
+                android:padding="10dp"
+                android:inputType="text"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/book_semester"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/edtprice"
+                android:padding="10dp"
+                android:inputType="text"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/price"
+                />
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:id="@+id/spinner"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="30dp"/>
+
+
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#808080"
+                android:orientation="horizontal"
+                android:stretchColumns="*">
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/imguploadbtn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dip"
+                        android:text="@string/upload" />
+
+                    <Button
+                        android:id="@+id/imgcancelbtn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dip"
+                        android:padding="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/cancel" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>
